@@ -1,0 +1,74 @@
+body{
+  background-image: url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+form input,form select,textarea{ 
+	margin: 5px;
+    width: 200px;
+    padding: 7px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    outline: none;
+    color: rgb(150, 150, 150);
+  
+}
+form{
+   text-align: center;
+   margin: 50px auto;
+   background-color: rgba(0, 0, 0, 0.7);
+   width: 50%;
+   padding: 15px;
+   color: white;
+   border-radius: 12px;
+}
+form input::placeholder{
+ font-weight: bold;
+}
+legend{
+	text-align: left;
+	color: cyan;
+
+}
+fieldset{
+	border-color: cyan;
+}
+form label{
+  display: block;
+  text-align: left;
+  color: rgb(180, 180, 180);
+}
+*{
+  box-sizing: border-box;
+}
+.radio{
+  display: inline-block;
+}
+input[type=radio],input[type=checkbox]{
+  width: 13px;
+}
+fieldset p{
+  color: blue;
+  text-align: right;
+  padding-right: 150px;
+}
+.system{
+  text-align: center;
+  color: green;
+  background-color: greenyellow;
+  width: 250px;
+  margin: 10px auto ;
+  font-size: 23px;
+}
+.system:hover{
+  background-color: green;
+  color: white;
+}
+.box{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+input[type=submit]:hover{
+   color: dodgerblue;
+   background-color: cyan;
+}

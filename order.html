@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="order.css">
+	<title>Заказать доставку телефона</title>
+</head>
+<body>
+
+	<form>
+		<h2>Заказ телефона</h2>
+		<fieldset>
+			<legend>Контактная информация
+			</legend>
+			<input type="text" name="" placeholder="ФИО"><br>
+			<input type="number" name="" placeholder="Ваш возраст"><br>
+			<input type="email" name="" placeholder="Ваш email">
+		</fieldset>
+		<fieldset>
+			<legend>Личная информация
+			</legend>
+			<label for="amount">Количество телефонов</label>
+			<input type="number" id="amount" min="1">
+			<label for="date">Дата получения</label>
+			<input type="date" id="date">
+			<label for="guarantee">Срок гарантии
+			</label>
+			<select id="guarantee">
+				<option>Месяц</option>
+				<option>3 Месяц</option>
+				<option>6 Месяц</option>
+				<option>12 Месяцев</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Обратная связь
+			</legend>
+			<label>Посоветуете ли вы нас своим друзьям?</label>
+			<input type="radio" name="feedback" id="feedback1">
+			<label class="radio" for="feedback1">Да</label>
+			<input type="radio" name="feedback" id="feedback2">
+			<label class="radio" for="feedback2">Нет</label>
+			<input type="radio" name="feedback" id="feedback3">
+			<label for="feedback3" class="radio">Я подумаю</label>
+			<label for="comment">Коментарий к заказу</label>
+			<textarea name="comment" id="comment" maxlength="500"></textarea>	
+
+
+
+
+
+		</fieldset>
+             <input type="checkbox" name="check1" id="check1">
+             <label class="box" for="check1">Разрешить обработку данных</label>
+             <input type="checkbox" name="check1" id="check2">
+             <label class="box" for="check2">Получать уведомления о заказе на почту</label>
+             <input type="submit" value="Отправить" name="">
+			<!--fieldset>
+				<legend>Ваши данные для заказа
+				</legend>
+				<input type="email" name="" placeholder="Ваш email"><br>
+				<input type="password" name="" placeholder="Пароль">
+				<p>Забыли пароль?</p>
+				</label>
+			<input type="radio" >
+			<label class="radio">Запомнить меня</label>
+				<div class="system">Войти
+			</div> 
+			</fieldset-->
+		</div>
+		
+
+	</form>
+
+</body>
+</html>
