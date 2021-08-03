@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body{
+	margin: 0px;
+	background-color: #C5CAE9;
+}
+nav{
+	text-align: left;
+	margin:  0 ;
+	background-color: white;
+	width: 100%;
+  position: fixed;
+  padding: 10px;
+  opacity: 0.8;
+
+ 
+  
+}
+nav img{
+text-align: left;
+width: 120px;
+}
+nav p{
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	font-family: 'Pangolin', cursive;
+}
+header{
+	text-align: center;
+	background: 
+	linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
+	url(img/bg.jpg);
+	padding: 100px 0;
+	color: white;
+	background-size: cover;
+	height: 500px;
+	
+
+}
+header  a{
+	color: white;
+    text-decoration: none;
+	margin: 25px;
+	background-color: orange;
+	padding: 5px 10px;
+	border-radius: 7px;
+	margin: 0px auto;
+	display: block;
+	width: 100px;
+	position: relative;
+}
+header h1{
+	font-size:  60px;
+
+}
+header h2{
+   font-size:  35px;
+   color: rgb(190, 190, 190);
+}
+#banner img{
+  width: 300px;
+  float: right;
+  margin: 15px;
+  margin-top: 0;
+  border-radius: 50%;
+  border: 3px solid rgb(218, 165, 32);
+ 
+
+}
+#banner h2{
+	text-align: center;
+}
+#banner{
+padding: 35px;
+}
+#banner:hover{
+	
+}
+
+#banner p{
+	text-align: justify;
+	font-family: 'Balsamiq Sans', cursive;
+}
+#banner a{
+  text-align: center;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+#directions{
+	text-align: center;
+	margin-top: 100px;
+}	
+#banner a{
+ color: white;
+ background-color: black;
+ padding: 5px;
+ border-radius: 10px;
+ width: 100px;
+ display: block;
+ margin: auto;
+}
+#banner a:hover{
+	background-color: orange;
+	color: black;
+}
+.card {
+	width: 30%;
+	display: inline-block;
+	margin: 5px ;
+	vertical-align: top;
+	border: 1px solid black;
+  padding: 15px;	
+  background-image: url("img/bg1.jpg");
+  background-size: cover;
+  box-shadow: 1px 2px  5px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.card1{
+ background-image: url("img/bg2.jpg");
+ color: white;
+}
+.card2{
+ background-image: url("img/bg3.jpg");
+ color: white;
+}
+.card3{
+ background-image: url("img/bg4.jpg");
+ color: white;
+}
+.card img{
+	width: 100%;
+	object-fit: cover;
+  height: 150px;
+}
+.card h3{
+	font-size: 25px;
+}
+.stars{
+  font-weight: 600;
+  color: rgb(255, 200, 0);
+
+}
+.card a{
+	text-decoration: none;
+	background-color: yellow;
+	color:  green;
+	padding: 7px;
+	border-radius: 10px;
+}
+.card a:hover{
+	color: white;
+	background-color: blue;
+}
+#prices{
+	text-align: center;
+	background-color: rgb(65, 105, 225);
+	padding: 50px 0;
+	margin-top: 20px;
+}
+.tariff{
+	background-color: white;
+  width: 27%;
+  min-width: 350px;
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid 3dddddd;
+  box-shadow: 1px 2px  5px rgba(0, 0, 0, 0.5);
+  
+}
+.tariff h3{
+  background-color: rgb(105, 205, 225);
+  padding: 10px;
+  Margin-top: 0;
+}
+.tariff p{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	padding: 10px;
+	margin: 0;
+
+}
+.tariff p:last-child{
+ background-color: rgb(200, 200, 200);
+ padding: 20px;
+ 
+ 
+
+}
+.tariff p:last-child a{
+ background-color: black;
+ padding: 12px;
+ color: white;
+ text-decoration: none;
+ border-radius: 10px;
+}
+.tariff p:last-child a:hover{
+	color: black;
+	background-color: white;
+}
+.tariff-2{
+  width: 29%;
+  min-width: 375px;
+  
+}
+.bold{
+	font-weight: bold;
+}
+small{
+	opacity: 0.5;
+}
+#contact h2{
+	text-align: center;
+}
+.first{
+	text-align: center;
+}
+#contact{
+	padding: 40px;
+}
+.contact-address{
+	background-image: url("img/address.png");
+}
+
+.contact-phone{
+	background-image: url("img/phone.png");
+}  
+
+.contact-email{
+	background-image: url("img/mail.png");
+}
+.contact-info{
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: left center;
+	background-size: 18px;
+}
+input{
+ width: 80%;
+ margin: 7px auto;
+ padding: 7px;
+ border-radius: 10px;
+ text-align: center;
+ display: block;
+}
+.footer{
+	color: black;
+	background-color: white;
+	padding: 1px;
+	margin: 0;
+	text-align: left;
+  text-align: center;
+
+
+
+}
+.footer img{
+width: 70px;
+padding: 20px;
+height: 70px;
+}
+.contact-submit{ 
+ background-color: black;
+ color: white;
+ 	display: block;
+	margin: 10px auto;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+#logo{
+	width: 70%;
+	height: initial;
+  padding: 0;
+  text-align: center;
+
+}
+.column{
+  display: inline-block;
+  width: 20%;
+  vertical-align: top ;
+  padding: 5px 15px;
+  border-right: 2px solid grey;
+  height: 100%;
+
+}
+.column a{
+	text-decoration: none;
+	color: black;
+	background-color: grey;
+	border-radius: 10px;
+	padding: 10px;
+
+}
